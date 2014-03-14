@@ -1,0 +1,9 @@
+{
+	name          = 'Edit';
+	saveForEditing = 1;
+	command       = '#!/bin/bash\n
+open -a Aquamacs $@ "${MM_EDIT_FILEPATH}"
+';
+	keyEquivalent = "^O";
+	uuid          = 'CA69CAD5-D4EC-481C-986A-548C60C40418';
+}
